@@ -1,0 +1,250 @@
+repo_name: jadenblack/tfwrapper
+report_id: 996d5bfc7f2f23acc192213b62e20a48
+repo_type: Public
+timestamp: '2023-12-14T17:19:23+00:00'
+requested_by: pdecat
+provider: github
+branch: master
+detected_tools_count: 19
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2020-01-17 14:38:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Patrick Decat
+  last_updated_on: 2023-10-13 13:51:01.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2020-01-17 14:38:45.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2023-10-13 15:02:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: CacheControl
+  description: Httplib2 caching for requests
+  package_url: https://pypi.org/project/CacheControl
+  version: 0.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19978/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2023-10-13 15:02:03.000000000 Z
+- name: Jinja2
+  description: A very fast and expressive template engine
+  package_url: https://pypi.org/project/Jinja2
+  version: 3.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19836/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2021-10-12 12:42:49.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: 5.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-09 23:04:24.000000000 Z
+- name: argcomplete
+  description: Bash tab completion for argparse
+  package_url: https://pypi.org/project/argcomplete
+  version: 3.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19928/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-12 23:56:58.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.28.63
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2021-10-12 12:42:49.000000000 Z
+- name: colorlog
+  description: Log formatting with colors!
+  package_url: https://pypi.org/project/colorlog
+  version: 6.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19948/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-10-28 09:04:14.000000000 Z
+- name: lockfile
+  description: Platform-independent file locking module
+  package_url: https://pypi.org/project/lockfile
+  version: 0.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20055/default_c6b771728648e397c4dc44c31f72db9a0f6ca233.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2023-10-13 15:02:03.000000000 Z
+- name: natsort
+  description: Simple yet flexible natural sorting in Python
+  package_url: https://pypi.org/project/natsort
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20143/default_1c2436d58f201b4fcdd3a2802eae3e5ee67142b3.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-02-10 07:55:17.000000000 Z
+- name: packaging
+  description: Core utilities for Python packages
+  package_url: https://pypi.org/project/packaging
+  version: '23.2'
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19894/default_f716e4bc541a9eb6e3f5b7a20d7c35355075b0b4.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-01-23 09:41:55.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2023-10-13 15:02:03.000000000 Z
+- name: schema
+  description: Simple data validation library
+  package_url: https://pypi.org/project/schema
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20106/default_2ba12a7662d0c37cf453a179c5f8f0558d760422.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Decat
+  last_updated_on: 2021-10-12 12:42:49.000000000 Z
+- name: termcolor
+  description: ANSII Color formatting for output in terminal
+  package_url: https://pypi.org/project/termcolor
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
+  detection_source_url: https://github.com/jadenblack/tfwrapper/blob/master/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-10-28 09:04:14.000000000 Z
